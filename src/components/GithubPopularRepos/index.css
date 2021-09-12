@@ -1,0 +1,62 @@
+/* Write your CSS here */
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.heading {
+  color: #0f172a;
+  font-family: 'Lobster';
+  font-size: 48px;
+}
+
+.languages-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  list-style-type: none;
+  margin-left: 0px;
+}
+
+.failure-view-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  font-family: 'Bree Serif';
+  font-weight: bold;
+  font-size: 18px;
+  color: #1e293b;
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .failure-view-container {
+    font-size: 32px;
+  }
+}
+
+.failure-view-image {
+  width: 100%;
+}
+
+.repos-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80%;
+  list-style-type: none;
+  padding-left: 0px;
+}
+
+@media (min-width: 768px) {
+  .repos-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+}
